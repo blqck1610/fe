@@ -5,6 +5,7 @@ const instance = axios.create({
 
    
   });
+  
 // Add a response interceptor
 instance.interceptors.response.use(function (response) {
   // Any status code that lie within the range of 2xx cause this function to trigger
